@@ -13,7 +13,7 @@ const App = () => {
         <h1 className="text-3xl font-bold text-center mb-6">
           {isSignup ? "Create Account" : "Welcome Back"}
         </h1>
-
+        
         {/* Signup Fields */}
         {isSignup && (
           <input
